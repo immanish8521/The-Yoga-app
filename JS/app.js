@@ -72,7 +72,7 @@ const app = () => {
         if (currentTime >= fakeDuration) {
             song.pause();
             song.currentTime = 0;
-            play.src = './svg/play.svg';
+            play.src = '../assets/svg/play.svg';
             video.pause();
         }
     };
